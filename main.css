@@ -1,0 +1,78 @@
+nav{float: left;   width: 20%}
+main {float: left; width: 50%;}
+aside {float: left; width: 20%;}
+img {
+width: 300px; 
+height: 200px; 
+}
+footer {float: left; width: 100%;}
+ h1 {
+    position: absolute;       
+    top: 40px;                 
+    left: 50%;                 
+    transform: translateX(-50%); 
+    margin: 0;
+    text-align: center;
+    color: aliceblue; 
+    font-family: sans-serif, arial;}
+body {
+    border: 200px solid red; }
+    img {position: absolute;    
+    top: 10%;   
+    left: 50%;                 
+    transform: translateX(-50%);}
+button {position: absolute;       
+    top: 30%;                 
+    left: 50%;                 
+    transform: translateX(-50%); 
+    margin: 0;
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-family: sans-serif, arial;}
+button:hover {
+    background-color: rgb(255, 0, 0, 0.5);
+    color: white;}
+    h2 {
+    position: absolute;               
+    left: 50%;        
+    top: 40%;         
+    transform: translateX(-50%); 
+    text-align: center;
+    color: black; 
+    font-family: sans-serif, arial;}
+   
+    p{ position: absolute;               
+    left: 47%;        
+    top: 49%;         
+    transform: translateX(-50%); 
+    text-align: center;
+    color: white; 
+    background: linear-gradient(to bottom, red, black);
+    font-family: sans-serif, arial;
+    text-indent: 50px;
+    font-size: 20px;
+    font-family: sans-serif, arial;}
+    
+    aside {position: absolute;               
+    left: 10%;        
+    top: 50%;         
+    transform: translateX(-50%); 
+    text-align: center;
+    color: white; 
+    background: linear-gradient(to bottom, red, black);
+    font-family: sans-serif, arial;
+    text-indent: 50px;}
+    
+    article {position: absolute;               
+    right: 15%;        
+    top: 50%;         
+    transform: translateX(-50%); 
+    text-align: center;
+    color: white; 
+    background: linear-gradient(to bottom, red, black);
+    font-family: sans-serif, arial;
+    text-indent: 50px;}
+
+  
+
